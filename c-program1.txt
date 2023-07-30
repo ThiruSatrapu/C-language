@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+void main()
+{
+    char st[33];
+    int Telugu,English,Hindi,Maths,Science,social,Totel;
+    float Average;
+    printf("Enter Name\n");
+    scanf("%s",&st);
+    printf("Enter marks Telugu,English,Hindi,Maths,Science,social\n");
+    scanf("%d%d%d%d%d%d",&Telugu,&English,&Hindi,&Maths,&Science,&social);
+    Totel=Telugu+English+Hindi+Maths+Science+social;
+    Average=Totel/6;
+    printf("Name is         =%s\n",st);
+    printf("Totel marks is  =%d\n",Totel);
+    printf("average is      =%f\n",Average);
+}
